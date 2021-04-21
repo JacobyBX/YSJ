@@ -8,6 +8,8 @@
     <title>Young Successful Jewel | YSJ</title>
     <link rel="shortcut icon" href="/Images/favicon.png">
     <link rel="stylesheet" href="/vivify.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body >
     <div id="loader" class="loading-container">
@@ -30,7 +32,7 @@
           </div>
        </div>
        <div class="social-icons vivify fadeIn delay-2250">
-         <a href="https://cash.app/$ysjewel" target="_blank"><img class="social" src="images/cashapp.svg"><p class="social-text">Cash App</p></a>  
+         <a href="https://cash.app/$ysjewel" target="_blank"><img class="social cashapp-styling" src="images/cashapp.svg"><p class="social-text">Cash App</p></a>  
            <img class="social" src="images/instagram.svg">
        </div>
    </header> 
@@ -44,24 +46,24 @@
    <section id="shop" class="products">
 <div class="large-product-item">
     <img loading="lazy" src="Images/Gold Charm.png">
-    <div class="large-product-text">
+    <div data-aos="fade-up" class="large-product-text">
       <h3>Gold Charm</h3>  
       <p>$5.00 - 15.00 | Each Bangle comes with 4 Charms each additional Charm is $2 </p>
     </div>
 </div>
 
 <div class="small-product-wrapper">
-    <div class="small-product-item">
+    <div data-aos="fade-up" class="small-product-item">
         <img loading="lazy" src="Images/silvercharm.png">
         <h3>Rose Gold Charm(Designer)</h3>
         </div>
     
-        <div class="small-product-item">
+        <div data-aos="fade-up" class="small-product-item">
             <img loading="lazy" src="Images/rosegold.png">
             <h3>Silver Charm</h3>
             </div>
 
-            <div class="small-product-item">
+            <div data-aos="fade-up" class="small-product-item">
                 <img loading="lazy" src="Images/image_67533057.png">
                 <h3>Rose Gold Charm(Designer)</h3>
                 </div>
@@ -71,7 +73,7 @@
 
 <div  class="large-product-item">
     <img loading="lazy" src="Images/oils.png">
-    <div class="large-product-text">
+    <div data-aos="fade-up" class="large-product-text">
       <h3>Natural Oils</h3>  
       <p>$10 all natural oils for face and body oil .   </p>
     </div>
@@ -79,6 +81,12 @@
 
    </section>
 
+   <section class="contact">
+
+   </section>
    
+   <script>
+    AOS.init();
+  </script>
 </body>
 </html>
