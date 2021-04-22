@@ -25,6 +25,7 @@ html {scroll-behavior: smooth;}
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+  width: 168px;
 }
 
 .logo-container {
@@ -167,3 +168,5 @@ header {height: 101vh;}
 .small-product-item > h3 {font-family: "Open Sans";font-size: 14px; font-weight: 600;}
 
 .contact {background-image: url('Images/contact.svg');background-repeat: no-repeat;width: 100%; height: 293px;margin-top: 69px;background-size: cover;}
+
+.mouse-wrapper {position: absolute;bottom: 0px; width: 100%;}
