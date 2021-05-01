@@ -208,9 +208,18 @@ header {height: 101vh;}
 #contact:target {height: 100vh;}
 
 @media only screen and (min-width: 600px) {
+  .social {width: 55px; height: 55px;}
+  .large-product-text > h3 {font-size: 54px;}
+  .logo-container {background-color: transparent !important;}
+  .banner-buttons {    margin-top: 376px;
+    margin-left: -20px;}
+.social-text {font-size: 17px;
+  padding-top: 16px;margin-right: -112px;}
+  .cashapp-styling {padding-left: 90px;}
 .banner-image {display: none;}
 .desktop-banner {display: block;}
-.banner-text {display: none;}
+.banner-text > h1{display: none;}
+.banner-text > p {display: none;}
 .banner-text-desktop {
   position: absolute;
   left: 340px;
@@ -225,7 +234,7 @@ header {height: 101vh;}
 
 .banner-text-desktop  > h1 {
   font-size: 38px;
-  color: #AF2A5A;
+  color: white;
   font-weight: 700;
   font-size: 80px;
   line-height: 89px;
@@ -236,12 +245,13 @@ header {height: 101vh;}
   color: black;
   font-size: 20px;
   margin-top: 10px;
+  color: white;
 }
 
 .logo-container > img {margin-left: 63px;
   margin-top: 26px;}
 
-  .products {margin: auto; width: 80%;}
+  .products {margin: auto; width: 96%;}
 
   .small-product-item {width: 287px;}
 
